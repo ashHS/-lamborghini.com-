@@ -1,0 +1,429 @@
+*{
+				margin: 0 auto;
+				padding: 0 auto;
+				list-style: none;
+				font-family: "Open Sans";
+			}
+			#index_top{
+				width: 1519px;
+				height: 100px;
+				background-color: #000;
+				line-height: 100px;
+				opacity: .8;
+				z-index: 10000;
+				margin-left: 0;
+			}
+			#index_top .menu{
+				height: 100px;
+				position: absolute;
+				z-index: 10000;
+				width: 100%;
+				
+			}
+			#index_top .top_logo{
+				background: url(../images/logo/logo_07.jpg) no-repeat;
+				width: 56px;
+				height: 62px;
+				float: left;
+				margin: 18px 48px 0 52px;
+			}
+			#index_top ul{
+				float: left;
+				padding: 0;
+				margin-top: 0;
+			}
+			#index_top ul>li{
+				display: inline-block;
+				margin-right: 15px;
+				height: 62px;
+			}
+			#index_top ul>li>a{
+				color: #fff;
+				font-size: 16px;
+				font-weight: 400;
+				cursor: pointer;
+				padding: 0 2px 3px;
+				text-decoration: none;
+			}
+			#index_top .active{
+				border-bottom: 2px solid #E3BB21;
+				transition: .5s;
+			}
+			#index_top ol{
+				float: right;
+				margin-top: 6px;
+				margin-right: 50px;
+			}
+			#index_top ol>li{
+				display: inline-block;
+				margin-left: 18px;
+				cursor: pointer;
+			}
+			#index_top .setting{
+				background: url(../images/images/cn_17.jpg) no-repeat;
+				width: 22px;
+				height: 26px;
+			}
+
+			#index_top .fenxiang{
+				background: url(../images/images/cn_19.jpg) no-repeat;
+				width: 21px;
+				height: 26px;
+			}
+			#index_top .sousuo{
+				background: url(../images/images/cn_21.jpg) no-repeat;
+				width: 22px;
+				height: 26px;
+			}
+			#index_top .zhongwen{
+				background: url(../images/images/cn_14.jpg) no-repeat;
+				width: 36px;
+				height: 32px;
+				margin-top: 4px;
+			}
+			#fenxiang .modal-content{
+				width: 700px;
+				height: 210px;
+				border-radius: 0;
+				margin: 200px 0 0 -60px;
+				text-align: center;
+			}
+			#fenxiang .modal-body p{
+				width: 500px;
+				font-size: 24px;
+				font-weight: 600;
+				margin:-20px auto -30px;
+				text-align: center;
+				border-bottom: 1px solid #000;
+			}
+			#fenxiang span{
+				font-size: 24px;
+				margin: 20px 10px 0;
+			}
+			#fenxiang span:hover{
+				margin-top: 10px;
+				transition: .5s;
+			}
+			#sousuo .modal-content{
+				width: 700px;
+				height: 210px;
+				border-radius: 0;
+				margin: 200px 0 0 -60px;
+				text-align: center;
+			}
+			#sousuo .modal-body p{
+				font-size: 22px;
+				line-height: 50px;
+				height: 50px;
+				text-align: center;
+				font-weight: lighter;
+			}
+			#sousuo .modal-body input{
+				width: 80%;
+				height: 60px;
+				border: none;
+				font-size: 30px;
+				color: #E3BB21;
+				padding-left: 15px;
+				border-bottom: 1px solid #E3BB21;
+			}
+			input::-webkit-input-placeholder {
+				color: #E3BB21;
+			}
+			#zhongwen .modal-content{
+				border-radius: 0;
+				margin: 200px 0 0 -60px;
+				width: 700px;
+				height: 340px;
+			}
+			#zhongwen .modal-body p{
+				width: 500px;
+				font-size: 24px;
+				font-weight: 600;
+				margin:0 auto;
+				text-align: center;
+				border-bottom: 1px solid #000;
+			}
+			#zhongwen .modal-body ul{
+				padding-left: 190px;
+				padding-top: 20px;
+			}
+			#zhongwen .modal-body ul>li{
+				float: left;
+				line-height: 40px;
+				width: 40%;
+				height: 40px;
+				font-size: 16px;
+				font-weight: 500;
+				cursor: pointer;
+			}
+			#zhongwen .modal-body ul>li:hover{
+				color: #E3BB21;
+			}
+			#index_top .modal{
+				overflow-y: hidden;
+			}
+			#index_top ol>li:hover{
+				opacity: .6;
+				transition: .5s;
+			}
+			#index_top .shadow{
+				width: 100%;
+				height: 650px;
+				background: #000;
+				position: absolute;
+				top: -550px;
+				opacity: .9;
+			}
+			#index_top .shadow ul{
+				height: 450px;
+				margin-top: 200px;
+				padding-left: 155px;
+				position: absolute;
+				display: none;
+			}
+			#index_top .shadow .shown{
+				display: block;
+			}
+			#index_top .shadow ul>li{
+				display: block;
+				width: 450px;
+				height: 50px;
+				line-height: 50px;
+				cursor: pointer;
+				border-bottom: 1px solid #333;
+			}
+			#index_top .shadow ul>li:hover{
+				border-bottom: 1px solid #E3BB21;
+				color: #E3BB21;
+			}
+			#index_top .shadow ul>li>span{
+				float: right;
+				margin-right: 10px;
+				color: #fff;
+			}
+			
+			
+			
+			#top{
+				width: 1519px;
+				height: 700px;
+				position: relative;
+			}
+			#top .imgs{
+				width: 100%;
+				height: 100%;
+			}
+			#top .arrow{
+				width: 90px;
+				height: 50px;
+				position: absolute;
+				bottom: 20px;
+				left: 50%;
+				color: #dfb400;
+				font-size: 58px;
+				cursor: pointer;
+				-webkit-animation: rightan 1s infinite;
+				-webkit-animation-fill-mode: both;
+			}
+			@-webkit-keyframes rightan{
+				25%{transform: translateY(-4px);}
+				50%{transform: translateY(0);}
+				75%{transform: translateY(4px);}
+			}
+			#top .date{
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 370px;
+				height: 74px;
+				line-height: 74px;
+				background: #dfb400;
+				cursor: default;
+			}
+			#top .date span{
+				font-size: 42px;
+				color: #fff;
+				margin-left: 20px;
+				border-right: 1px solid #fff;
+			}
+			#top .date span strong{
+				font-size: 24px;
+				margin:0 20px 0 12px;
+			}
+			#top .date p{
+				display: inline-block;
+				font-size: 42px;
+				font-weight: lighter;
+				color: #fff;
+				margin: 0 0 0 20px;
+			}
+			
+			#content{
+				width: 1459px;
+				height: 380px;
+				margin: 0 auto;
+			}
+			#content a{
+				text-decoration: none;
+			}
+			.home ul{
+				width: 427px;
+				border-bottom: 1px solid #eee;
+				
+			}
+			.home ul li{
+				display: inline-block;
+			}
+			.home ul li:after{
+				content: '\2F';
+				display: inline-block;
+			}
+			.home ul li:last-child:after{
+				content: '';
+			}
+			.home ul li a{
+				color: #000;
+				font-size: 1.2rem;
+				padding: 10px;
+			}
+			.home .color:hover{
+				color: #dfb400;
+				transition: .5s;
+			}
+			#content .cont{
+				width: 730px;
+				margin: 0 auto;
+				padding-top: 25px;
+			}
+			#content .cont a{
+				font-size: 13px;
+				font-weight: lighter;
+				color: #000;
+			}
+			#content .cont p{
+				font-size: 26px;
+				font-weight: 700;
+				color: #000;
+				margin-bottom: 0;
+				cursor: default;
+			}
+			#content .cont div{
+				font-size: 26px;
+				color: #000;
+				margin-bottom: 15px;
+				cursor: default;
+			}
+			#content .cont span{
+				font-weight: lighter;
+				cursor: default;
+			}
+			#content .btn{
+				width: 160px;
+				height: 40px;
+				line-height: 30px;
+				background-color: #dfb400;
+				border-radius: 0;
+				overflow: hidden;
+				margin-top: 10px;
+			}
+			#content #span{
+				color: #fff;
+				font-size: 1.5rem;
+				font-weight: 400;
+				margin-left: 5px;
+			}
+			#content dd{
+				font-size: 1.8rem;
+				display: inline-block;
+				margin-left: 11px;
+				color: #fff;
+			}
+			
+			
+			
+			
+			#index-footer{
+				height: 600px;
+				width: 100%;
+				padding-top: 10px;
+				background: url(../images/bg-footer.jpg) no-repeat;
+			}
+			#index-footer>ul{
+				text-align: center;
+				margin: 25px 0;
+			}
+			#index-footer>ul>li{
+				display: inline-block;
+				margin-right: 15px;
+			}
+			#index-footer>ul>li>a{
+				text-decoration: none;
+				color: #fff;
+				font-size: 17px;
+			}
+			#index-footer ul>li>a:hover{
+				opacity: .4;
+				transition: .5s;
+			}
+			#index-footer>.links{
+				width: 88%;
+				padding-top: 20px;
+				overflow: hidden;
+			}
+			#index-footer>p{
+				margin-top: 5px;
+				text-align: center;
+				color: #fff;
+				font-size: 14px;
+				cursor: default;
+			}
+			#index-footer>p>a{
+				color: #fff;
+				font-size: 14px;
+				text-decoration: none;
+				border-bottom: 1px solid #fff;
+			}
+			#index-footer>p>a:hover{
+				border-bottom: none;
+			}
+			#index-footer>.links>div{
+				width: 23%;
+				display: inline-block;
+				margin-left: 20px;
+				float: left;
+			}
+			#index-footer>.links>div a{
+				color: #fff;
+				font-size: 14px;
+				font-weight: lighter;
+				text-decoration: none;
+			}
+			#index-footer>.links>div>a>h4{
+				font-size: 17px;
+				font-weight: 600;
+				border-bottom: 1px solid #fff;
+				padding-bottom: 10px;
+			}
+			#index-footer>.links>div>ul{
+				padding: 0;
+			}
+			#index-footer>.links>div>ul>li{
+				padding-top: 10px;
+			}
+			#index-footer>.labels>.guanzhu{
+				text-align: center;
+			}
+			#index-footer>.labels>.guanzhu>span{
+				color: #fff;
+				font-size: 18px;
+				cursor: default;
+			}
+			#index-footer>.labels>.guanzhu>ul{
+				display: inline-block;
+				padding-left: 10px;
+			}
+			#index-footer>.labels>.guanzhu li{
+				display: inline-block;
+				margin: 0 1px;
+			}

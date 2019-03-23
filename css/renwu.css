@@ -1,0 +1,633 @@
+*{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				font-family: "Open Sans";
+				text-decoration: none;
+				
+			}
+			#index_top{
+				width: 1519px;
+				height: 100px;
+				background-color: #000;
+				line-height: 100px;
+				opacity: .8;
+				z-index: 10000;
+				margin-left: 0;
+			}
+			#index_top .menu{
+				height: 100px;
+				position: absolute;
+				z-index: 10000;
+				width: 100%;
+				
+			}
+			#index_top .top_logo{
+				background: url(../images/logo/logo_07.jpg) no-repeat;
+				width: 56px;
+				height: 62px;
+				float: left;
+				margin: 18px 48px 0 52px;
+			}
+			#index_top ul{
+				float: left;
+				padding: 0;
+				margin-top: 0;
+			}
+			#index_top ul>li{
+				display: inline-block;
+				margin-right: 15px;
+				height: 62px;
+			}
+			#index_top ul>li>a{
+				color: #fff;
+				font-size: 16px;
+				font-weight: 400;
+				cursor: pointer;
+				padding: 0 2px 3px;
+				text-decoration: none;
+			}
+			#index_top .active{
+				/* border-bottom: 2px solid #E3BB21; */
+				transition: .5s;
+			}
+			#index_top ol{
+				float: right;
+				margin-top: 6px;
+				margin-right: 50px;
+			}
+			#index_top ol>li{
+				display: inline-block;
+				margin-left: 18px;
+				cursor: pointer;
+			}
+			#index_top .setting{
+				background: url(../images/images/cn_17.jpg) no-repeat;
+				width: 22px;
+				height: 26px;
+			}
+			#index_top .fenxiang{
+				background: url(../images/images/cn_19.jpg) no-repeat;
+				width: 21px;
+				height: 26px;
+			}
+			#index_top .sousuo{
+				background: url(../images/images/cn_21.jpg) no-repeat;
+				width: 22px;
+				height: 26px;
+			}
+			#index_top .zhongwen{
+				background: url(../images/images/cn_14.jpg) no-repeat;
+				width: 36px;
+				height: 32px;
+				margin-top: 4px;
+			}
+			#fenxiang .modal-content{
+				width: 700px;
+				height: 210px;
+				border-radius: 0;
+				margin: 200px 0 0 -60px;
+				text-align: center;
+			}
+			#fenxiang .modal-body p{
+				width: 500px;
+				font-size: 24px;
+				font-weight: 600;
+				margin:-20px auto -30px;
+				text-align: center;
+				border-bottom: 1px solid #000;
+			}
+			#fenxiang span{
+				font-size: 24px;
+				margin: 20px 10px 0;
+			}
+			#fenxiang span:hover{
+				margin-top: 10px;
+				transition: .5s;
+			}
+			#sousuo .modal-content{
+				width: 700px;
+				height: 210px;
+				border-radius: 0;
+				margin: 200px 0 0 -60px;
+				text-align: center;
+				z-index: 100;
+			}
+			#sousuo .modal-body p{
+				font-size: 22px;
+				line-height: 50px;
+				height: 50px;
+				text-align: center;
+				font-weight: lighter;
+			}
+			#sousuo .modal-body input{
+				width: 80%;
+				height: 60px;
+				border: none;
+				font-size: 30px;
+				color: #E3BB21;
+				padding-left: 15px;
+				border-bottom: 1px solid #E3BB21;
+			}
+			input::-webkit-input-placeholder {
+				color: #E3BB21;
+			}
+			#zhongwen .modal-content{
+				border-radius: 0;
+				margin: 200px 0 0 -60px;
+				width: 700px;
+				height: 340px;
+			}
+			#zhongwen .modal-body p{
+				width: 500px;
+				font-size: 24px;
+				font-weight: 600;
+				margin:0 auto;
+				text-align: center;
+				border-bottom: 1px solid #000;
+			}
+			#zhongwen .modal-body ul{
+				padding-left: 190px;
+				padding-top: 20px;
+			}
+			#zhongwen .modal-body ul>li{
+				float: left;
+				line-height: 40px;
+				width: 40%;
+				height: 40px;
+				font-size: 16px;
+				font-weight: 500;
+				cursor: pointer;
+			}
+			#zhongwen .modal-body ul>li:hover{
+				color: #E3BB21;
+			}
+			#index_top .modal{
+				overflow-y: hidden;
+			}
+			#index_top ol>li:hover{
+				opacity: .6;
+				transition: .5s;
+			}
+			#index_top .shadow{
+				width: 100%;
+				height: 650px;
+				background: #000;
+				position: absolute;
+				top: -550px;
+				opacity: .9;
+			}
+			#index_top .shadow ul{
+				height: 450px;
+				margin-top: 200px;
+				padding-left: 155px;
+				position: absolute;
+				display: none;
+			}
+			#index_top .shadow .shown{
+				display: block;
+			}
+			#index_top .shadow ul>li{
+				display: block;
+				width: 450px;
+				height: 50px;
+				line-height: 50px;
+				cursor: pointer;
+				border-bottom: 1px solid #333;
+			}
+			#index_top .shadow ul>li:hover{
+				border-bottom: 1px solid #E3BB21;
+				color: #E3BB21;
+			}
+			#index_top .shadow ul>li>span{
+				float: right;
+				margin-right: 10px;
+				color: #fff;
+			}
+			
+			#renwu{
+				width: 1519px;
+				height: 730px;
+				cursor: pointer;
+				position: relative;
+			}
+			#renwu img{
+				width: 100%;
+				height: 100%;
+			}
+			#renwu .boxcontent{
+				position: absolute;
+				top: 6rem;
+				padding-top: 10rem;
+				left: 12%;
+			}
+			#renwu .boxcontent .ren{
+				font-size: 5rem;
+				font-weight: 700;
+				color: #fff;
+			}
+			#renwu .boxcontent .che{
+				position: absolute;
+				font-weight: lighter;
+				font-size: 3.4rem;
+				background-color: #fff;
+				color: #000;
+				left: 5rem;
+				padding: 5px 20px 0 10px;
+			}
+			#renwu .boxcontent p{
+				margin-top: 10rem;
+				color: #fff;
+				width: 440px;
+				font-size: 1.6rem;
+				font-weight: bold;
+				
+			}
+			#renwu .iconfont{
+				width: 58px;
+				height: 64px;
+				position: absolute;
+				left: 50%;
+				bottom: 40px;
+				font-size: 58px;
+				cursor: pointer;
+				text-decoration: none;
+				color: #dfb400;
+				-webkit-animation: 1s arrow infinite;
+				-webkit-animation-fill-mode: both;
+			}
+			@-webkit-keyframes arrow{
+				25%{transform: translateY(-4px);}
+				50%{transform: translateY(0);}
+				75%{transform: translateY(4px);}
+			}
+			
+			#home ul{
+				margin: 0 40px;
+				width: 153px;
+				border-bottom: 1px solid #eee;
+				padding: 7px 0;
+			}
+			#home ul li{
+				display: inline-block;
+			}
+			#home ul li:after{
+				content: '\2F';
+				display: inline-block;
+			}
+			#home ul li:last-child:after{
+				content: '';
+			}
+			#home ul li a{
+				color: #000;
+				font-size: 1.2rem;
+				padding: 10px;
+			}
+			#lanbo{
+				width: 1460px;
+				margin: 0 auto;
+				position: relative;
+			}
+			#lanbo .boxcontent{
+				width: 850px;
+				height: 325px;
+				margin-bottom: 80px;
+				margin-left: 121px;
+				padding-top: 80px;
+			}
+			#lanbo .boxcontent h3{
+				font-size: 3rem;
+				cursor: default;
+			}
+			#lanbo .boxcontent p{
+				font-size: 1.5rem;
+				font-weight: lighter;
+				margin-top: 30px;
+				cursor: default;
+			}
+			#lanbo .btn{
+				width: 110px;
+				height: 42px;
+				background-color: #dfb400;
+				position: absolute;
+				top:250px;
+				left: 120px;
+				border-radius: 0;
+				padding-left: 19px;
+				overflow: hidden;
+			}
+			#lanbo span{
+				color: #fff;
+				font-size: 1.8rem;
+			}
+			#lanbo dd{
+				font-size: 1.8rem;
+				display: inline-block;
+				margin-left: 11px;
+				color: #fff;
+			}
+			#lanbo .image{
+				width: 1460px;
+				height: 600px;
+				overflow: hidden;
+			}
+			#lanbo .image .img1{
+				z-index: 2;
+				width: 100%;
+				height: 528px;
+				left: 0;
+				position: absolute;
+				background: url(../images/renwu/ferruccio-left.jpg) no-repeat;
+				clip-path: polygon(30% 0,90% 0,60% 100%,0 100%);
+				left: -300px;
+			}
+			#lanbo .image .img2{
+				z-index: 1;
+				width: 946px;
+				height: 528px;
+				overflow: hidden;
+				background: url(../images/renwu/ferruccio-right.jpg) no-repeat;
+				position: absolute;
+				top: 330px;
+				left: 540px;
+			}
+			
+			
+			#rencai{
+				height: 832px;
+				width: 1519px;
+				margin: 0 auto;
+			}
+			#rencai .wenzi{
+				width: 972px;
+				margin: 0 auto;
+				text-align: center;
+				cursor: default;
+			}
+			#rencai .wenzi h3{
+				font-size: 3rem;
+				margin-bottom:40px;
+				font-weight: lighter;
+			}
+			#rencai .wenzi h3 strong{
+				padding-right: 5px;
+			}
+			#rencai .wenzi p{
+				font-size: 1.5rem;
+			}
+			#rencai .image{
+				margin: 100px 0;
+				height: 670px;
+				overflow: hidden;
+				position: relative;
+			}
+			#rencai .image .left{
+				z-index: 2;
+				position: absolute;
+				overflow: hidden;
+				height: 528px;
+				width: 1200px;
+				left: -260px;
+				clip-path: polygon(35% 0,100% 0,70% 100%,0 100%);
+				background: url(../images/renwu/stanzani_slider.jpg) no-repeat;
+			}
+			#rencai .image .left .paolo{
+				position: absolute;
+				top: 35px;
+				left: 880px;
+			}
+			#rencai .image .left .paolo p{
+				color: #fff;
+				font-size: 30px;
+				font-weight: 800;
+				margin-bottom: 0px;
+				cursor: default;
+			}
+			#rencai .btn{
+				width: 164px;
+				height: 50px;
+				background-color: #dfb400;
+				border-radius: 0;
+				padding-left: 19px;
+				overflow: hidden;
+			}
+			#rencai i{
+				color: #fff;
+				font-size: 2.6rem;
+				font-weight: lighter;
+			}
+			#rencai dd{
+				font-size: 2.6rem;
+				display: inline-block;
+				margin-left: 11px;
+				color: #fff;
+				font-weight: lighter;
+			}
+			#rencai .image .right{
+				margin-top: 100px;
+				z-index: 1;
+				position: absolute;
+				overflow: hidden;
+				height: 528px;
+				width: 1200px;
+				right: -220px;
+				clip-path: polygon(30% 0,100% 0,65% 100%,0 100%);
+				background: url(../images/renwu/gandini.jpg) no-repeat;
+			}
+			#rencai .image .right .mar{
+				position: absolute;
+				top: 400px;
+				left: 580px;
+			}
+			#rencai .image .right .mar p{
+				color: #fff;
+				font-size: 30px;
+				font-weight: 800;
+				margin-bottom: 0px;
+				cursor: default;
+			}
+			#rencai .image .right .mar .btn{
+				width: 146px;
+				height: 50px;
+				background-color: #dfb400;
+				border-radius: 0;
+				padding-left: 19px;
+				overflow: hidden;
+			}
+			
+			
+			
+			
+			#store{
+				height: 910px;
+				margin-top: 200px;
+				cursor: pointer;
+			}
+			#store .half{
+				width: 1519px;
+				height: 454px;
+				cursor: pointer;
+			}
+			#store .half>div{
+				float: left;
+				width: 50%;
+				height: 454px;
+				overflow: hidden;
+				position: relative;
+			}
+			#store .half>div:after{
+				position: absolute;
+				content: '';
+				height: 100%;
+				width: 100%;
+				top: 0;
+				left: 0;
+				z-index: 2;
+				box-shadow: inset 100px 100px 33px 256px rgba(0, 0, 0, 0.5);
+			}
+			/* 覆盖 */
+			#store .half .white:after,#store .full.white:after{
+				position: absolute;
+				content: '';
+				height: 100%;
+				width: 100%;
+				top: 0;
+				left: 0;
+				z-index: 2;
+				opacity: 0;
+				transition: 2s;
+			}
+			
+			#store .half span{
+				position: absolute;
+				top: 40%;
+				left: 44%;
+				color: #fff;
+				font-size: 30px;
+				font-weight: bold;
+				z-index: 3;
+			}
+			#store .half img{
+				width: 100%;
+				height: 100%;
+			}
+			#store .full{
+				width: 1519px;
+				height: 455px;
+				position: relative;
+				overflow: hidden;
+			}
+			#store .full span{
+				position: absolute;
+				top: 40%;
+				left: 48%;
+				color: #fff;
+				font-size: 30px;
+				font-weight: bold;
+				z-index: 3;
+			}
+			#store .full img{
+				width: 100%;
+				height: 100%;
+			}
+			#store .full:after{
+				position: absolute;
+				content: '';
+				height: 100%;
+				width: 100%;
+				top: 0;
+				left: 0;
+				z-index: 2;
+				box-shadow: inset 100px 100px 33px 256px rgba(0, 0, 0, 0.5);
+			}
+			
+			
+			
+			#index-footer{
+				margin: 0 auto;
+				height: 550px;
+				width: 100%;
+				padding-top: 10px;
+				background: url(../images/bg-footer.jpg) no-repeat;
+			}
+			#index-footer>ul{
+				text-align: center;
+				margin: 25px 0;
+			}
+			#index-footer>ul>li{
+				display: inline-block;
+				margin-right: 15px;
+			}
+			#index-footer>ul>li>a{
+				text-decoration: none;
+				color: #fff;
+				font-size: 17px;
+			}
+			#index-footer ul>li>a:hover{
+				opacity: .4;
+				transition: .5s;
+			}
+			#index-footer>.links{
+				margin: 0 auto;
+				width: 88%;
+				/* padding-left: 70px; */
+				padding-top: 20px;
+				overflow: hidden;
+			}
+			#index-footer>p{
+				margin-top: 5px;
+				text-align: center;
+				color: #fff;
+				font-size: 14px;
+				cursor: default;
+			}
+			#index-footer>p>a{
+				color: #fff;
+				font-size: 14px;
+				text-decoration: none;
+				border-bottom: 1px solid #fff;
+			}
+			#index-footer>p>a:hover{
+				border-bottom: none;
+			}
+			#index-footer>.links>div{
+				width: 23%;
+				display: inline-block;
+				margin-left: 20px;
+				float: left;
+			}
+			#index-footer>.links>div a{
+				color: #fff;
+				font-size: 14px;
+				font-weight: lighter;
+				text-decoration: none;
+			}
+			#index-footer>.links>div>a>h4{
+				font-size: 17px;
+				font-weight: 600;
+				border-bottom: 1px solid #fff;
+				padding-bottom: 10px;
+			}
+			#index-footer>.links>div>ul{
+				padding: 0;
+			}
+			#index-footer>.links>div>ul>li{
+				padding-top: 10px;
+			}
+			#index-footer>.labels>.guanzhu{
+				text-align: center;
+			}
+			#index-footer>.labels>.guanzhu>span{
+				color: #fff;
+				font-size: 18px;
+				cursor: default;
+			}
+			#index-footer>.labels>.guanzhu>ul{
+				display: inline-block;
+				padding-left: 10px;
+			}
+			#index-footer>.labels>.guanzhu li{
+				display: inline-block;
+				margin: 0 1px;
+			}
+		
